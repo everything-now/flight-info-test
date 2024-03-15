@@ -13,4 +13,6 @@ use App\Http\Controllers\MainPageController;
 |
 */
 
-Route::get('/', MainPageController::class)->name('main');
+Route::get('/', function () {
+    return view('app');
+});
