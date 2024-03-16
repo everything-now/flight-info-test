@@ -27,7 +27,7 @@ class FlightFactory extends Factory
             ->first();
         
         $departureDateTime = Carbon::today()
-            ->addDays(rand(0, 60))
+            ->addDays(rand(0, 30))
             ->addMinutes(rand(1, 1440))
             ->setTimezone($airports->first()->timezone);
 
