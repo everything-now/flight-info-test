@@ -15,4 +15,4 @@ use App\Http\Controllers\SearchFlightsController;
 |
 */
 
-Route::get('/search', [SearchFlightsController::class, 'search'])->middleware('auth.basic');
+Route::post('/search', [SearchFlightsController::class, 'search'])->middleware('auth.basic');
