@@ -113,7 +113,7 @@ export default defineComponent({
        departureDate: null,
        loading: false,
        showErrors: false,
-       errorTextMessages: 'sadas',
+       errorTextMessages: '',
        flights: [],
        airports: [
          { name: 'Kyiv Zhuliany', code: 'IEV' },
