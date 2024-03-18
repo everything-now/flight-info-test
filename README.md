@@ -1,5 +1,5 @@
 ## Live
-[http://2896247.ns535931.web.hosting-test.net/](http://2896247.ns535931.web.hosting-test.net/)
+[http://flight-info-test.everything-now.space/](http://flight-info-test.everything-now.space/)
 ## Installation
 
 Using Docker and [Sail](https://laravel.com/docs/11.x/installation#docker-installation-using-sail)
